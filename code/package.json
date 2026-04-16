@@ -1,0 +1,16 @@
+{
+  "name": "ski-report-generator",
+  "version": "1.0.0",
+  "description": "Generates a daily ski report for Paradise at Mount Rainier",
+  "main": "generateReport.js",
+  "scripts": {
+    "start": "node generateReport.js",
+    "generate": "node generateReport.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cheerio": "1.0.0",
+    "dotenv": "^16.0.0",
+    "puppeteer": "^24.15.0"
+  }
+}

@@ -1,0 +1,9 @@
+# Environment — never commit real keys
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+
+# macOS
+.DS_Store
