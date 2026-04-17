@@ -1,136 +1,143 @@
-# Paradise Ski Day Report — April 16, 2026
-
-> **Report generated:** April 16, 2026  
-> **Location:** Mount Rainier National Park — Paradise, WA  
-> **Sources:** NPS Alerts & Conditions | NWAC West Slopes South Avalanche Forecast
+# Paradise Ski Report — Thursday, April 16, 2026
 
 ---
 
 ## Section 1: Paradise Road Gate Opening Report
 
-**Source:** [Mount Rainier NPS — Alerts & Conditions](https://www.nps.gov/mora/planyourvisit/conditions.htm)
+**Source:** Mount Rainier National Park — NPS Alerts  
+**Alert Title:** Paradise Road Status: Gate closed at Longmire, projected to open tomorrow  
+**Alert Severity:** Park Closure  
+**Date:** 04/16/2026  
 
-### Alert Details
+### Current Status
 
-| Field | Details |
-|-------|---------|
-| **Alert Title** | Paradise Road Status: Early Morning Update |
-| **Alert Category** | Park Closure |
-| **Status** | ⚠️ Conditional Access — See Details |
-| **Date** | 04/16/2026 |
+| Segment | Status |
+|---|---|
+| Road to Longmire | ✅ OPEN |
+| Gate at Longmire to Paradise | ❌ CLOSED (overnight closure) |
 
 ### Full Alert Message
 
-> *04/16/2026 — The road is open to Longmire and the gate at Longmire to Paradise is expected to open at 10 a.m. All vehicles, including 4WD and AWD, must carry tire chains and be ready to use them. The gate at Longmire to Paradise will close to uphill travel at 4 p.m. and downhill travel at 5 p.m. to support public safety.*
+> 04/16/2026 The road is open to Longmire. All vehicles, including 4WD and AWD, must carry tire chains and be ready to use them. The gate at Longmire to Paradise is closed for the night to support public safety and is projected to open, conditions permitting, tomorrow Friday 04/17/2026
 
 ### Road Access Summary
 
-| Segment | Status |
-|---------|--------|
-| Road to Longmire | ✅ **OPEN** |
-| Gate from Longmire to Paradise | ⏰ **Expected to OPEN at 10:00 AM** |
-| Uphill gate closure | 🔒 Closes at **4:00 PM** |
-| Downhill gate closure | 🔒 Closes at **5:00 PM** |
-| Tire chain requirement | ⛓️ **Mandatory** — All vehicles including 4WD/AWD must carry and be ready to use chains |
-
-### Practical Access Window
-- **Opening:** ~10:00 AM (gate at Longmire opens to Paradise)
-- **Last uphill entry:** 4:00 PM
-- **Exit deadline:** 5:00 PM (downhill gate closes)
-- **Effective ski window:** ~6 hours (10 AM – 4 PM uphill access)
+- The road from the park entrance **to Longmire is OPEN**.
+- The gate **from Longmire to Paradise is CLOSED** for the night.
+- All vehicles (including 4WD/AWD) are **required to carry tire chains** and be ready to install them.
+- The gate is **projected to open Friday, April 17, 2026**, conditions permitting.
 
 ---
 
 ## Section 2: Avalanche Forecast — West Slopes South
 
-**Source:** [NWAC — West Slopes South Avalanche Forecast](https://nwac.us/avalanche-forecast/#/west-slopes-south)
+**Source:** Northwest Avalanche Center (NWAC)  
+**Forecast Zone:** West Slopes South  
+**Issued:** Thursday, April 16, 2026 — 6:30 PM  
+**Expires:** Friday, April 17, 2026 — 6:30 PM  
+**Forecaster:** Dallas Glass  
 
-### Forecast Metadata
+---
 
-| Field | Details |
-|-------|---------|
-| **Forecast Zone** | West Slopes South |
-| **Issued** | Wednesday, April 15, 2026 — 6:30 PM |
-| **Expires** | Thursday, April 16, 2026 — 6:30 PM |
-| **Forecaster** | Dallas Glass |
-| **Weather Summary Issued By** | Sam Clairmont (2:11 PM PDT, April 15, 2026) |
+### Bottom Line
 
-### The Bottom Line
+> With all the recent storm and the changing spring-like weather, you'll need to manage a variety of snow and avalanche conditions. Choose routes with plenty of options that let you quickly adjust if things change or become more dangerous than anticipated.
 
-> *Dynamic spring weather and limited information about the new snow lead to more questions than answers regarding avalanche concerns. Choose terrain that lets you easily identify and avoid steep open slopes and adjust to changing conditions.*
+---
 
-### Avalanche Danger — Thursday, April 16, 2026
+### Avalanche Danger Levels — Friday, April 17, 2026
 
-| Elevation Band | Elevation Range | Danger Level | Rating |
-|----------------|-----------------|--------------|--------|
-| **Upper** | 8000–6500 ft | 🟠 **3 - Considerable** | High concern — human-triggered avalanches likely |
-| **Middle** | 6500–5500 ft | 🟡 **2 - Moderate** | Human-triggered avalanches possible |
-| **Lower** | 5500–3500 ft | 🟡 **2 - Moderate** | Human-triggered avalanches possible |
+| Elevation Band | Elevation Range | Danger Level |
+|---|---|---|
+| Upper Elevations | 8000–6500 ft | **2 – Moderate** |
+| Middle Elevations | 6500–5500 ft | **2 – Moderate** |
+| Lower Elevations | 5500–3500 ft | **2 – Moderate** |
 
-> **Note:** Danger is forecast to decrease on Friday, April 17, 2026 to 2-Moderate (Upper), 2-Moderate (Middle), and 1-Low (Lower).
+*(Saturday, April 18, 2026 outlook: 2 – Moderate at all elevation bands)*
+
+---
 
 ### Avalanche Problems
 
-#### Problem #1: Wind Slab
-- **Likelihood:** Likely
-- **Size:** Large (D2)
-- **Affected Elevations:** All elevation bands (Upper, Middle, Lower)
-- **Details:** Moderate to strong winds may form fresh wind slabs during the day. These wind loaded pockets will probably be easier to trigger, but should be relatively small. Blowing snow can help identify where they are building. NW winds might develop slabs in unusual places. Older slabs formed during Tuesday night's storm could be harder to spot and more difficult to trigger, but may break deeper. Look for sharp cornices and drifts to identify areas of firmer, deeper snow.
+#### Problem #1: Wet Loose
 
-#### Problem #2: Wet Loose
-- **Likelihood:** Likely
-- **Size:** Large (D2)
-- **Affected Elevations:** All elevation bands (Upper, Middle, Lower)
-- **Details:** Sun exposure can trigger wet loose avalanches. Watch for snow falling from trees and rocks as a warning sign. If skies stay cloudy, this may not be a significant concern. Long rocky faces with more than a foot of snow could produce large natural avalanches. Get ahead of the problem by using routes that avoid steep sunny slopes.
+- **Likelihood:** Possible
+- **Size:** Small (D1) to Large (D2)
+- **Affected Elevations:** All elevations, all aspects
 
-### Weather Forecast — West Slopes South
+Most locations in the West South saw some sunshine and wet avalanche activity over the past few days. This should help ease the shock of sunny skies and warmer temperatures on Friday. In these locations, once any crusts break down, there could be several natural point release slides in rocky terrain. The recent snow has been making a very slow transition for the past several days. Just don't let wet slides take you by surprise in very steep or consequential terrain. If the snow surface is still cold and dry, Friday's weather could be a rude awakening.
 
-| Parameter | Wed Evening | Wed Night | Thu Morning | Thu Afternoon |
-|-----------|-------------|-----------|-------------|---------------|
-| **5000' Temps (Max/Min °F)** | — | 23 / 17 | — | 33 / 18 |
-| **Snow Level** | 1500 ft | 1000 ft | 1500 ft | 3500 ft |
-| **Ridgeline Winds** | WNW 10-20 mph | NW 5-15 mph | NW 15-25 mph | WNW 15-25 mph |
-| **Weather** | Light snow showers, early evening | Partly cloudy overnight | — | Fluctuating cloud, frequent sun breaks |
-| **Precipitation (Paradise WE)** | 0.25" | — | 0" | 0" |
+Once rollerballs start falling from rocks and trees, this problem is waking up. Natural avalanches will likely follow — the time to start avoiding being on or under steep, sunny slopes.
 
-### Weather Synopsis
+#### Problem #2: Wind Slab
 
-Snow showers moved across Western Washington on Wednesday afternoon, with stronger bands south of I-90. Convective showers produced short periods of heavy snow in localized spots. Moisture tapered off overnight. On Thursday, high pressure builds behind a departing low-pressure system, bringing northerly flow and colder air. Expect cold morning temperatures followed by noticeable warm-up as sunshine returns. Winds remain elevated through Thursday, with ridgeline gusts 15–25 mph NW/WNW. Dry conditions continue into the weekend with Friday–Saturday offering calm, clear weather.
+- **Likelihood:** Possible
+- **Size:** Small (D1) to Large (D2)
+- **Affected Elevations:** Upper and Middle Elevations
+
+Wind slabs across the zone are a few days old and likely becoming harder to trigger. However, as you move into higher terrain, keep this problem in mind. Scoured slopes, sharp cornices, and fresh drifts can all point towards potentially loaded slopes.
+
+You're most likely to trigger one of these lingering wind slabs in very steep terrain, along the base of cliffs, and on convex rollovers. Look for less wind-affected or lower angled slopes to enjoy the soft snow.
 
 ---
 
-## Section 3: Verdict
+### Forecast Discussion
+
+The weather varied greatly across the West South zone the past few days, making it challenging to summarize conditions. Some areas experienced substantial sunshine and warm temperatures, while others stayed cloudier and colder. Overall, the slow transition from cold and snowy to warm and sunny should help keep the snowpack from coming apart as temperatures bump up significantly on Friday.
+
+Storm totals from this week range from 12–18 inches near the crest to around 2 feet on the volcanoes. Observations suggest this new snow is largely right-side-up and bonding well to the underlying crust. Below the new snow, the snowpack is generally strong and stable thanks to the 4/14 and 3/25 crusts. Until these weaken, there is no concern about layers deeper in the snowpack.
+
+The fresh snow certainly helped travel conditions. However, it also buried many of the rocks, logs, and holes that skiers have been avoiding. Coverage is still thin at lower elevations and on southerly slopes.
+
+---
+
+### Weather Details — West Slopes South
+
+| Parameter | Thursday Night | Friday |
+|---|---|---|
+| 5000' Temperatures (°F) | Max 35 / Min 25 | Max 45 / Min 25 |
+| Snow Level | 3000–4000 ft | 3000–5000 ft (rising) |
+| Ridgeline Winds | W 5–15 mph | VAR 0–10 → S 0–10 mph |
+| Weather Forecast | Partly cloudy, isolated snow flurries | Mostly sunny skies |
+| Precipitation at Paradise | 0" | 0" |
+
+**Weather Synopsis:** A low pressure system moves eastward, with moderate low-level onshore flow and cold air arriving on NW flow. Temperatures at 5000' are unseasonably cold overnight, topping out mid-20s to low 30s. After a chilly start Friday, temperatures rebound 10–15°F warmer than Thursday under a modest high pressure ridge, with mostly sunny skies.
+
+---
+
+## Section 3: Verdict — Can I Ski at Paradise Today?
 
 ### Summary Assessment
 
-**Overall Recommendation: ⚠️ Proceed with Caution — Experienced Backcountry Skiers Only**
+| Factor | Status | Impact |
+|---|---|---|
+| Road to Longmire | ✅ Open | Can reach Longmire |
+| Gate to Paradise (today, 4/16) | ❌ Closed | **Cannot reach Paradise today** |
+| Gate to Paradise (tomorrow, 4/17) | 🔄 Projected to Open | May ski Friday |
+| Avalanche Danger | ⚠️ Moderate (Level 2) | Manageable with awareness |
+| Wet Loose Avalanche Risk | ⚠️ Possible, rising with warmth | Avoid steep sunny slopes in afternoon |
+| Wind Slab Risk | ⚠️ Possible at upper elevations | Avoid steep, wind-loaded terrain |
+| Fresh Snow | ✅ 12–24" recent accumulation | Good ski conditions |
+| Friday Weather | ✅ Mostly sunny, warming | Spring ski day conditions |
 
-#### Road Access: ✅ Go (with timing constraints)
+### Conclusion
 
-Road access to Paradise is **available today** with a meaningful 6-hour window (10 AM – 4 PM uphill). Tire chains are mandatory for all vehicles including 4WD and AWD. Plan to arrive at the Longmire gate before 10 AM for best access, and ensure you are off the mountain and heading downhill before 5 PM when the gate closes.
+**Today (Thursday, April 16, 2026): ❌ DO NOT attempt to ski at Paradise.**
 
-#### Avalanche Conditions: ⚠️ Caution Required
+The gate from Longmire to Paradise is **closed for the night** and will not reopen until Friday, April 17, conditions permitting. No skiing is possible at Paradise today regardless of avalanche conditions.
 
-The avalanche forecast rates **Upper elevations at Considerable (3)** — the third-highest danger level on a 5-point scale. This means human-triggered avalanches are *likely* on steep terrain. Two active avalanche problems are present today:
+**Tomorrow (Friday, April 17, 2026): ✅ CONDITIONS LOOK PROMISING — with precautions.**
 
-1. **Wind Slabs** are building throughout the day as moderate-to-strong NW winds load fresh snow onto lee aspects. These are expected to be easier to trigger than the older underlying slabs from Tuesday night's storm.
-2. **Wet Loose** avalanches may develop in the afternoon as sunshine and warming temperatures destabilize the new snow surface.
+If the gate opens as projected:
 
-#### Practical Conclusion
+1. **Road Access:** Carry tire chains and be ready to install them. Check NPS alerts before departing for updated road status.
+2. **Avalanche Awareness:** Danger is Moderate (Level 2) at all elevations — the second-lowest level. Avalanche accidents can still occur at this level, particularly on steep slopes and in terrain traps.
+3. **Wet Slide Timing:** Sunny skies and warming temperatures will increase wet loose avalanche activity through the day. Ski steeper terrain in the morning while snow is still cold and firm; avoid steep, sun-exposed slopes in the afternoon.
+4. **Wind Slabs:** Be alert for wind slab features (scoured areas, sharp cornices, rollovers) especially above 6500 ft.
+5. **Fresh Snow:** 12–24" of recent snowfall provides excellent ski coverage near the crest and on the volcano. Coverage is thin at lower elevations and on southerly aspects.
 
-| Factor | Assessment |
-|--------|-----------|
-| Road access | ✅ Open — 10 AM gate opening |
-| Upper elevation avalanche risk | 🟠 Considerable — avoid steep open slopes above 6500 ft |
-| Mid/lower elevation risk | 🟡 Moderate — cautious terrain selection required |
-| Wind loading | ⚠️ Active — NW 15-25 mph ridgeline winds building new slabs |
-| Wet snow risk afternoon | ⚠️ Sun breaks and warming increase wet loose potential after noon |
-| Visibility | 🌤️ Variable — sun breaks with filtered sunshine expected |
-| Snow quality | Fresh snow on stable crusts (4/14 and 3/25) — solid base |
-| Ski window | ⏰ 10 AM – 4 PM (6 hours) |
-
-**Best approach for April 16, 2026:** Ski conservative, lower-angle terrain below 6500 ft during the morning hours (10 AM–noon) before wind slabs fully develop and before afternoon solar warming triggers wet loose slides. Avoid steep, open slopes and wind-loaded lee aspects entirely. Expert skiers with avalanche safety equipment (beacon, probe, shovel) who stick to mellow terrain can find good conditions in the fresh snow. Anyone unfamiliar with avalanche terrain identification and self-rescue should **wait for lower danger days**.
+**Practical recommendation:** Go Friday morning. Verify the gate is open before departing (check NPS alerts). Bring tire chains. Plan to ski early and descend before significant afternoon warming triggers wet slides.
 
 ---
 
-*Report compiled from NPS Alerts & Conditions and NWAC West Slopes South Avalanche Forecast. All information subject to change — always check current conditions before heading out.*
+*Report generated: April 16, 2026 | Sources: NPS Mount Rainier Alerts, NWAC West Slopes South Avalanche Forecast*
