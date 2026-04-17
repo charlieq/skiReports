@@ -26,6 +26,9 @@ const URLS = {
   npsConditions: 'https://www.nps.gov/mora/planyourvisit/conditions.htm',
   uwWeather: 'https://a.atmos.washington.edu/data/rainier_report.html',
   nwacAvy: 'https://nwac.us/avalanche-forecast/#/west-slopes-south',
+  snotel:
+    'https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/' +
+    '679:wa:SNTL|id=%22%22|name/-7,0/WTEQ::value,WTEQ::delta,SNWD::value,SNWD::delta',
 };
 
 const REPORTS_DIR = path.join(__dirname, '../skiReports');
@@ -226,24 +229,85 @@ async function getAvySummary(client) {
 }
 
 // ---------------------------------------------------------------------------
-// 4. Final report – "Should I go skiing?"
+// 4. NRCS SNOTEL – snow depth & SWE at Paradise (station 679)
 // ---------------------------------------------------------------------------
 
 /**
- * Combines road status, weather, and avy data and asks Claude to produce
- * a final recommendation report in markdown.
+ * Fetches the last 7 days of SNOTEL data for the Paradise station (679) and
+ * returns the most recent day's snow depth and SWE values plus the 7-day table.
+ *
+ * @returns {{
+ *   date: string,
+ *   snowDepthIn: number | null,
+ *   snowDepthChangeIn: number | null,
+ *   sweIn: number | null,
+ *   sweChangeIn: number | null,
+ *   tableText: string
+ * }}
+ */
+async function getSnowDepth() {
+  console.log('  Fetching SNOTEL snow depth data (NRCS station 679)…');
+  const csv = await fetchPage(URLS.snotel);
+
+  // The CSV has comment lines starting with # before the header row.
+  const lines = csv
+    .split('\n')
+    .map((l) => l.trim())
+    .filter((l) => l && !l.startsWith('#'));
+
+  if (lines.length < 2) {
+    return { date: 'N/A', snowDepthIn: null, snowDepthChangeIn: null, sweIn: null, sweChangeIn: null, tableText: '' };
+  }
+
+  // Build a markdown table from all data rows for the report
+  const headers = lines[0].split(',');
+  const dataRows = lines.slice(1).map((l) => l.split(','));
+
+  const tableLines = [
+    '| ' + headers.join(' | ') + ' |',
+    '|' + headers.map(() => '---').join('|') + '|',
+    ...dataRows.map((r) => '| ' + r.join(' | ') + ' |'),
+  ];
+  const tableText = tableLines.join('\n');
+
+  // Most recent row
+  const latest = dataRows[dataRows.length - 1];
+  const parse = (v) => (v && v !== 'null' && v !== '' ? parseFloat(v) : null);
+
+  return {
+    date: latest[0] ?? 'N/A',
+    sweIn: parse(latest[1]),
+    sweChangeIn: parse(latest[2]),
+    snowDepthIn: parse(latest[3]),
+    snowDepthChangeIn: parse(latest[4]),
+    tableText,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// 5. Final report – "Should I go skiing?"
+// ---------------------------------------------------------------------------
+
+/**
+ * Combines road status, weather, avy, and snow depth data and asks Claude to
+ * produce a final recommendation report in markdown.
  *
  * @param {{ open: boolean, alertText: string | null }} roadStatus
  * @param {string} weatherSummary
  * @param {string} avySummary
+ * @param {{ date: string, snowDepthIn: number|null, snowDepthChangeIn: number|null, sweIn: number|null, sweChangeIn: number|null, tableText: string }} snowDepth
  * @returns {string} Full markdown report
  */
-async function generateFinalReport(client, roadStatus, weatherSummary, avySummary) {
+async function generateFinalReport(client, roadStatus, weatherSummary, avySummary, snowDepth) {
   console.log('  Generating final ski report…');
 
   const roadSection = roadStatus.open
     ? `**Paradise Road Status: OPEN**\n${roadStatus.alertText ? '\nNote: ' + roadStatus.alertText : ''}`
     : `**Paradise Road Status: CLOSED / RESTRICTED**\n\n${roadStatus.alertText}`;
+
+  const snowDepthSection = snowDepth.snowDepthIn !== null
+    ? `**As of ${snowDepth.date}:** Snow Depth: **${snowDepth.snowDepthIn} in** (${snowDepth.snowDepthChangeIn >= 0 ? '+' : ''}${snowDepth.snowDepthChangeIn} in from prior day) | SWE: ${snowDepth.sweIn} in (${snowDepth.sweChangeIn >= 0 ? '+' : ''}${snowDepth.sweChangeIn} in)\n\n${snowDepth.tableText}`
+    : '_Snow depth data unavailable._';
 
   const prompt = `You are an expert ski guide and mountain safety advisor for Mount Rainier's
 Paradise area. Given the following conditions, write a comprehensive ski report in markdown
@@ -254,7 +318,8 @@ The report should include:
 2. Road Access section
 3. Weather section
 4. Avalanche Conditions section
-5. Overall Safety & Tips section
+5. Snow Conditions section (include the snow depth and SWE figures prominently)
+6. Overall Safety & Tips section
 
 Be direct, practical, and safety-conscious. Format nicely for markdown.
 
@@ -267,6 +332,9 @@ ${weatherSummary}
 
 ## Avalanche Forecast
 ${avySummary}
+
+## Snow Depth & Snowpack (NRCS SNOTEL Station 679 – Paradise, 5,150 ft)
+${snowDepthSection}
 ---`;
 
   const message = await client.messages.create({
@@ -288,21 +356,27 @@ async function main() {
   const client = getClient();
 
   // --- Gather data ---
-  console.log('[1/3] Checking Paradise road status (NPS)…');
+  console.log('[1/4] Checking Paradise road status (NPS)…');
   const roadStatus = await getParadiseRoadStatus();
   console.log(
     `      Road: ${roadStatus.open ? 'OPEN (no closure alerts found)' : 'CLOSED / RESTRICTED'}`
   );
 
-  console.log('\n[2/3] Fetching mountain weather forecast (UW Atmos)…');
+  console.log('\n[2/4] Fetching mountain weather forecast (UW Atmos)…');
   const weatherSummary = await getWeatherSummary(client);
 
-  console.log('\n[3/3] Fetching avalanche forecast (NWAC)…');
+  console.log('\n[3/4] Fetching avalanche forecast (NWAC)…');
   const avySummary = await getAvySummary(client);
 
+  console.log('\n[4/4] Fetching snow depth data (NRCS SNOTEL)…');
+  const snowDepth = await getSnowDepth();
+  if (snowDepth.snowDepthIn !== null) {
+    console.log(`      Snow depth: ${snowDepth.snowDepthIn} in (${snowDepth.snowDepthChangeIn >= 0 ? '+' : ''}${snowDepth.snowDepthChangeIn} in) as of ${snowDepth.date}`);
+  }
+
   // --- Generate report ---
-  console.log('\n[4/4] Composing final report…');
-  const reportBody = await generateFinalReport(client, roadStatus, weatherSummary, avySummary);
+  console.log('\n[5/5] Composing final report…');
+  const reportBody = await generateFinalReport(client, roadStatus, weatherSummary, avySummary, snowDepth);
 
   // --- Format & save ---
   const now = new Date();
@@ -318,7 +392,7 @@ ${reportBody}
 
 ---
 _Report generated: ${timestamp}_
-_Sources: [NPS Conditions](${URLS.npsConditions}) · [UW Mountain Weather](${URLS.uwWeather}) · [NWAC Avalanche Forecast](${URLS.nwacAvy})_
+_Sources: [NPS Conditions](${URLS.npsConditions}) · [UW Mountain Weather](${URLS.uwWeather}) · [NWAC Avalanche Forecast](${URLS.nwacAvy}) · [NRCS SNOTEL 679](${URLS.snotel})_
 `;
 
   if (!fs.existsSync(REPORTS_DIR)) {

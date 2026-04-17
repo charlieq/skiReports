@@ -1,6 +1,6 @@
 # Getting Started
 
-This project generates a daily ski report for **Paradise at Mount Rainier** by scraping road status, mountain weather, and avalanche conditions, then using the Anthropic Claude API to produce a clear go / no-go recommendation.
+This project generates a daily ski report for **Paradise at Mount Rainier** by scraping road status, mountain weather, avalanche conditions, and live snow depth data from the NRCS SNOTEL station, then using the Anthropic Claude API to produce a clear go / no-go recommendation.
 
 ---
 
@@ -64,13 +64,15 @@ You will see progress output like:
 ```
 === Paradise Ski Report Generator ===
 
-[1/3] Checking Paradise road status (NPS)…
+[1/4] Checking Paradise road status (NPS)…
       Road: OPEN (no closure alerts found)
 
-[2/3] Fetching mountain weather forecast (UW Atmos)…
-[3/3] Fetching avalanche forecast (NWAC)…
+[2/4] Fetching mountain weather forecast (UW Atmos)…
+[3/4] Fetching avalanche forecast (NWAC)…
+[4/4] Fetching snow depth data (NRCS SNOTEL)…
+      Snow depth: 95 in (+14 in) as of 2026-04-16
 
-[4/4] Composing final report…
+[5/5] Composing final report…
 
 Report saved to: skiReports/paradiseSkiReport-20260416.md
 === Done ===
@@ -103,6 +105,9 @@ Open the file in any markdown viewer, VS Code, or Obsidian.
 
 **NWAC forecast is empty / shows placeholder text**
 → The NWAC SPA may have updated. See [docs/nextSteps.md](docs/nextSteps.md) item #2 for debugging steps.
+
+**Snow depth shows `null` / "data unavailable"**
+→ The NRCS SNOTEL CSV endpoint may be temporarily down. Check `https://wcc.sc.egov.usda.gov` directly; the report will still generate using the other three sources.
 
 ---
 

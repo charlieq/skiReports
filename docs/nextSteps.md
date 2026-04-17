@@ -37,14 +37,13 @@ Right now the script must be run manually.
 
 ---
 
-## 4. Snow Depth / Current Snowpack Data
+## 4. Snow Depth / Current Snowpack Data ✅ Done
 
-The current report covers road access, weather, and avalanche danger but not actual snow depth or base conditions at Paradise.
+Snow depth and SWE are now fetched from the NRCS SNOTEL station 679 (Paradise, 5,150 ft) via the report-generator CSV endpoint. The 7-day table and most recent day's values are included in the report and passed to Claude as part of the final summary prompt.
 
-**Options:**
-- Scrape the [MRNSSA (Mount Rainier Nordic Ski and Snowshoe Association)](https://www.mrnssa.com/) page for current Paradise conditions.
-- Pull SNOTEL data from the [NRCS Mt. Rainier SNOTEL station](https://wcc.sc.egov.usda.gov/nwcc/site?sitenum=679) for snowpack SWE and depth.
-- Integrate the [NWS point forecast](https://forecast.weather.gov/) API for a structured machine-readable weather forecast.
+**Potential enhancements:**
+- Also display peak-season historical averages for context (the same NRCS endpoint supports longer date ranges).
+- Integrate the [NWS point forecast](https://forecast.weather.gov/) API for a structured machine-readable weather forecast as a complement to the UW report.
 
 ---
 
