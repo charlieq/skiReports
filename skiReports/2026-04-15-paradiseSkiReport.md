@@ -1,143 +1,162 @@
-# Paradise Ski Report — Thursday, April 16, 2026
+# Paradise Ski Report — April 19, 2026
+
+**Report Generated:** Sunday, April 19, 2026  
+**Sources:** NPS Mount Rainier Alerts & Conditions | NWAC West Slopes South Avalanche Forecast
 
 ---
 
 ## Section 1: Paradise Road Gate Opening Report
 
-**Source:** Mount Rainier National Park — NPS Alerts  
-**Alert Title:** Paradise Road Status: Gate closed at Longmire, projected to open tomorrow  
-**Alert Severity:** Park Closure  
-**Date:** 04/16/2026  
+**Source:** [NPS Mount Rainier Alerts & Conditions](https://www.nps.gov/mora/planyourvisit/conditions.htm) | [Road Status](https://www.nps.gov/mora/planyourvisit/road-status.htm) | [Winter Travel](https://www.nps.gov/mora/planyourvisit/winter-travel.htm)
 
-### Current Status
+### Alert: Regular Nightly Closures of the Longmire Gate Have Ended for the Season
 
-| Segment | Status |
-|---|---|
-| Road to Longmire | ✅ OPEN |
-| Gate at Longmire to Paradise | ❌ CLOSED (overnight closure) |
+| Field | Detail |
+|-------|--------|
+| **Alert Title** | Regular nightly closures of the Longmire gate have ended for the season |
+| **Alert Category** | Park Closure |
+| **Date Posted** | Last updated: April 6, 2026 |
+| **Nisqually Entrance to Longmire** | OPEN |
+| **Longmire to Paradise (Gate)** | OPEN (nightly closures ended) |
 
 ### Full Alert Message
 
-> 04/16/2026 The road is open to Longmire. All vehicles, including 4WD and AWD, must carry tire chains and be ready to use them. The gate at Longmire to Paradise is closed for the night to support public safety and is projected to open, conditions permitting, tomorrow Friday 04/17/2026
-
-### Road Access Summary
-
-- The road from the park entrance **to Longmire is OPEN**.
-- The gate **from Longmire to Paradise is CLOSED** for the night.
-- All vehicles (including 4WD/AWD) are **required to carry tire chains** and be ready to install them.
-- The gate is **projected to open Friday, April 17, 2026**, conditions permitting.
-
----
-
-## Section 2: Avalanche Forecast — West Slopes South
-
-**Source:** Northwest Avalanche Center (NWAC)  
-**Forecast Zone:** West Slopes South  
-**Issued:** Thursday, April 16, 2026 — 6:30 PM  
-**Expires:** Friday, April 17, 2026 — 6:30 PM  
-**Forecaster:** Dallas Glass  
-
----
-
-### Bottom Line
-
-> With all the recent storm and the changing spring-like weather, you'll need to manage a variety of snow and avalanche conditions. Choose routes with plenty of options that let you quickly adjust if things change or become more dangerous than anticipated.
-
----
-
-### Avalanche Danger Levels — Friday, April 17, 2026
-
-| Elevation Band | Elevation Range | Danger Level |
-|---|---|---|
-| Upper Elevations | 8000–6500 ft | **2 – Moderate** |
-| Middle Elevations | 6500–5500 ft | **2 – Moderate** |
-| Lower Elevations | 5500–3500 ft | **2 – Moderate** |
-
-*(Saturday, April 18, 2026 outlook: 2 – Moderate at all elevation bands)*
-
----
-
-### Avalanche Problems
-
-#### Problem #1: Wet Loose
-
-- **Likelihood:** Possible
-- **Size:** Small (D1) to Large (D2)
-- **Affected Elevations:** All elevations, all aspects
-
-Most locations in the West South saw some sunshine and wet avalanche activity over the past few days. This should help ease the shock of sunny skies and warmer temperatures on Friday. In these locations, once any crusts break down, there could be several natural point release slides in rocky terrain. The recent snow has been making a very slow transition for the past several days. Just don't let wet slides take you by surprise in very steep or consequential terrain. If the snow surface is still cold and dry, Friday's weather could be a rude awakening.
-
-Once rollerballs start falling from rocks and trees, this problem is waking up. Natural avalanches will likely follow — the time to start avoiding being on or under steep, sunny slopes.
-
-#### Problem #2: Wind Slab
-
-- **Likelihood:** Possible
-- **Size:** Small (D1) to Large (D2)
-- **Affected Elevations:** Upper and Middle Elevations
-
-Wind slabs across the zone are a few days old and likely becoming harder to trigger. However, as you move into higher terrain, keep this problem in mind. Scoured slopes, sharp cornices, and fresh drifts can all point towards potentially loaded slopes.
-
-You're most likely to trigger one of these lingering wind slabs in very steep terrain, along the base of cliffs, and on convex rollovers. Look for less wind-affected or lower angled slopes to enjoy the soft snow.
-
----
-
-### Forecast Discussion
-
-The weather varied greatly across the West South zone the past few days, making it challenging to summarize conditions. Some areas experienced substantial sunshine and warm temperatures, while others stayed cloudier and colder. Overall, the slow transition from cold and snowy to warm and sunny should help keep the snowpack from coming apart as temperatures bump up significantly on Friday.
-
-Storm totals from this week range from 12–18 inches near the crest to around 2 feet on the volcanoes. Observations suggest this new snow is largely right-side-up and bonding well to the underlying crust. Below the new snow, the snowpack is generally strong and stable thanks to the 4/14 and 3/25 crusts. Until these weaken, there is no concern about layers deeper in the snowpack.
-
-The fresh snow certainly helped travel conditions. However, it also buried many of the rocks, logs, and holes that skiers have been avoiding. Coverage is still thin at lower elevations and on southerly slopes.
-
----
-
-### Weather Details — West Slopes South
-
-| Parameter | Thursday Night | Friday |
-|---|---|---|
-| 5000' Temperatures (°F) | Max 35 / Min 25 | Max 45 / Min 25 |
-| Snow Level | 3000–4000 ft | 3000–5000 ft (rising) |
-| Ridgeline Winds | W 5–15 mph | VAR 0–10 → S 0–10 mph |
-| Weather Forecast | Partly cloudy, isolated snow flurries | Mostly sunny skies |
-| Precipitation at Paradise | 0" | 0" |
-
-**Weather Synopsis:** A low pressure system moves eastward, with moderate low-level onshore flow and cold air arriving on NW flow. Temperatures at 5000' are unseasonably cold overnight, topping out mid-20s to low 30s. After a chilly start Friday, temperatures rebound 10–15°F warmer than Thursday under a modest high pressure ridge, with mostly sunny skies.
-
----
-
-## Section 3: Verdict — Can I Ski at Paradise Today?
-
-### Summary Assessment
-
-| Factor | Status | Impact |
-|---|---|---|
-| Road to Longmire | ✅ Open | Can reach Longmire |
-| Gate to Paradise (today, 4/16) | ❌ Closed | **Cannot reach Paradise today** |
-| Gate to Paradise (tomorrow, 4/17) | 🔄 Projected to Open | May ski Friday |
-| Avalanche Danger | ⚠️ Moderate (Level 2) | Manageable with awareness |
-| Wet Loose Avalanche Risk | ⚠️ Possible, rising with warmth | Avoid steep sunny slopes in afternoon |
-| Wind Slab Risk | ⚠️ Possible at upper elevations | Avoid steep, wind-loaded terrain |
-| Fresh Snow | ✅ 12–24" recent accumulation | Good ski conditions |
-| Friday Weather | ✅ Mostly sunny, warming | Spring ski day conditions |
-
-### Conclusion
-
-**Today (Thursday, April 16, 2026): ❌ DO NOT attempt to ski at Paradise.**
-
-The gate from Longmire to Paradise is **closed for the night** and will not reopen until Friday, April 17, conditions permitting. No skiing is possible at Paradise today regardless of avalanche conditions.
-
-**Tomorrow (Friday, April 17, 2026): ✅ CONDITIONS LOOK PROMISING — with precautions.**
-
-If the gate opens as projected:
-
-1. **Road Access:** Carry tire chains and be ready to install them. Check NPS alerts before departing for updated road status.
-2. **Avalanche Awareness:** Danger is Moderate (Level 2) at all elevations — the second-lowest level. Avalanche accidents can still occur at this level, particularly on steep slopes and in terrain traps.
-3. **Wet Slide Timing:** Sunny skies and warming temperatures will increase wet loose avalanche activity through the day. Ski steeper terrain in the morning while snow is still cold and firm; avoid steep, sun-exposed slopes in the afternoon.
-4. **Wind Slabs:** Be alert for wind slab features (scoured areas, sharp cornices, rollovers) especially above 6500 ft.
-5. **Fresh Snow:** 12–24" of recent snowfall provides excellent ski coverage near the crest and on the volcano. Coverage is thin at lower elevations and on southerly aspects.
-
-**Practical recommendation:** Go Friday morning. Verify the gate is open before departing (check NPS alerts). Bring tire chains. Plan to ski early and descend before significant afternoon warming triggers wet slides.
-
----
-
-*Report generated: April 16, 2026 | Sources: NPS Mount Rainier Alerts, NWAC West Slopes South Avalanche Forecast*
+> Regular nightly closures of the Longmire gate have ended for the season. The gate at Longmire to Paradise **may still close for the night** to support public safety depending on conditions. All vehicles, including 4WD and AWD, must carry tire chains and be ready to use them until May 1.
+>
+> ### Road Access Details
+>
+> - **Nisqually Entrance to Longmire:** OPEN (may close at any time depending on weather/road conditions)
+> - - **Longmire to Paradise:** OPEN — Regular nightly closures have ended for the season; however the gate may still close for the night based on safety conditions
+>   - - **Tire Chain Requirement:** All vehicles (including 4WD/AWD) are required to carry tire chains through **May 1**
+>    
+>     - ### Typical Gate Schedule (when open, conditions permitting)
+>    
+>     - | Event | Time |
+>     - |-------|------|
+>     - | Gate opens | 9:00 AM |
+> | Uphill gate closes | 4:00 PM |
+> | Downhill gate closes | 5:00 PM |
+>
+> > **Tip:** Recommended to leave Paradise by 4:30 PM to safely exit before the gate locks.
+> >
+> > ### Additional Road Closures in Effect
+> >
+> > - **Carbon River Road / SR 165 Bridge:** CLOSED — No public access to Carbon River or Mowich Lake
+> > - - **SR 123 (Cayuse Pass):** CLOSED for the season
+> >   - - **SR 410 (Chinook Pass):** CLOSED for the season
+> >     - - **Stevens Canyon Road, Sunrise Road, Westside Road:** CLOSED for the season
+> >      
+> >       - ---
+> >
+> > ## Section 2: Avalanche Forecast — West Slopes South
+> >
+> > **Source:** [NWAC West Slopes South](https://nwac.us/avalanche-forecast/#/west-slopes-south)
+> >
+> > ### Forecast Metadata
+> >
+> > | Field | Detail |
+> > |-------|--------|
+> > | **Zone** | West Slopes South |
+> > | **Issued** | Sunday, April 19, 2026 — 6:30 PM PDT |
+> > | **Expires** | Friday, October 30, 2026 — 6:30 PM PDT |
+> > | **Forecaster** | Dennis D'Amico |
+> > | **Forecast Type** | General Avalanche Information (Spring Statement) |
+> >
+> > ### 2026 Spring Statement — Avalanche Forecasts Have Ended for the Season
+> >
+> > NWAC has issued its end-of-season Spring Statement. **Formal daily avalanche danger ratings (with numeric levels by elevation band) are no longer being issued for the 2025-26 season.** No "Bottom Line" danger rating is published for this period. Backcountry travelers must self-assess conditions.
+> >
+> > ### Avalanche Danger Levels by Elevation Band
+> >
+> > | Elevation Band | Range | Danger Level |
+> > |----------------|-------|--------------|
+> > | Upper | 8,000-6,500 ft | Not Rated (season ended) |
+> > | Middle | 6,500-5,500 ft | Not Rated (season ended) |
+> > | Lower | 5,500-3,500 ft | Not Rated (season ended) |
+> >
+> > > **Note:** NWAC has suspended formal danger-level ratings for the spring/summer off-season. Danger exists but is self-assessed. NWAC may issue special bulletins if a large storm or widespread avalanche cycle occurs.
+> > >
+> > > ### Bottom Line
+> > >
+> > > The Bottom Line section is empty for this forecast period. This is the 2026 Spring Statement — NWAC's formal avalanche season forecasts have concluded for 2025-26. No quantitative danger rating or Bottom Line summary is being issued. Travelers must evaluate conditions independently.
+> > >
+> > > ### Springtime Avalanche Concerns (from Forecast Discussion)
+> > >
+> > > - Avalanches frequently occur **during and immediately following winter-like storms**, often resulting in storm and wind slab issues
+> > > - - **Danger may increase quickly** when sunshine returns after a snowfall, resulting in natural avalanches
+> > >   - - Avalanche danger can remain elevated when prolonged warm days and nights prevent the snowpack from freezing — resulting in wet slab, glide, and cornice falls
+> > >     - - **Warm days and cool clear nights** lead to a daily freeze-thaw cycle, producing smaller and more predictable loose wet avalanches
+> > >      
+> > >       - ### Travel Considerations (from Forecast)
+> > >      
+> > >       - - If you see recent avalanches, avoid similar slopes
+> > >         - - During and after a storm, be cautious of slopes greater than 35 degrees, especially with 6-8"+ of new snow or wind drifting
+> > >           - - Plan your day to minimize exposure during peak warming hours (typically afternoon)
+> > >             - - Cornices fall and snow can shed from steep rocks — avoid lingering beneath these hazards
+> > >               - - During warm sunny stretches, avalanche danger is **often lowest in the morning** and increases through the day
+> > >                
+> > >                 - ### Weather Summary — West Slopes South
+> > >                
+> > >                 - **Issued:** 2:38 PM PDT Sunday, April 19, 2026 by Dennis D'Amico
+> > >                
+> > >                 - | Parameter | Sunday Night (Evening) | Sunday Night (Overnight) | Monday Morning | Monday Afternoon |
+> > > |-----------|----------------------|--------------------------|----------------|-----------------|
+> > > | **Snow Level** | 10,500 ft | 10,500 ft | 10,500 ft | 10,500 ft |
+> > > | **5000' Temps (Max/Min)** | 55/45 F | — | — | 62/47 F |
+> > > | **Ridgeline Winds** | ESE 10-20 mph | ESE 15-25 mph | SE 15-25 mph | SW 5-15 mph |
+> > > | **Weather Forecast** | Partly cloudy, becoming mostly cloudy late. Moderate to locally strong ridgeline winds. | — | — | Partly sunny to mostly cloudy. Moderate ridgeline winds. |
+> > >
+> > > ### Precipitation Forecast at Key Locations
+> > >
+> > > | Location | Sunday Night | Monday | Monday Night | Tuesday |
+> > > |----------|-------------|--------|--------------|---------|
+> > > | Crystal Mt | 0" | 0" | less than 0.10" | less than 0.25" |
+> > > | Paradise | 0" | 0" | less than 0.10" | less than 0.25" |
+> > > | White Pass | 0" | 0" | less than 0.10" | less than 0.25" |
+> > >
+> > > ### Extended Weather Outlook
+> > >
+> > > - **Tuesday night:** Increased chance for mountain showers as upper low moves inland; snow levels cooling more in southern WA Cascades
+> > > - - **Wednesday-Thursday:** Trough shifts east; drying out quickly Wednesday night into Thursday with freezing levels rising to approximately 7,000 ft
+> > >  
+> > >   - | Period | Snow Level (West South) |
+> > >   - |--------|------------------------|
+> > >   - | Tuesday Night | 9,000 ft |
+> > >   - | Wednesday | 8,000 ft |
+> > >   - | Wednesday Night | 8,000 ft |
+> > >   - | Thursday | Rising (~7,000 ft+) |
+> > >  
+> > >   - ---
+> > >
+> > > ## Section 3: Verdict — Can You Ski at Paradise?
+> > >
+> > > ### Summary Assessment
+> > >
+> > > | Factor | Status | Assessment |
+> > > |--------|--------|------------|
+> > > | Road to Longmire | OPEN | No issues |
+> > > | Gate: Longmire to Paradise | OPEN (nightly closures ended) | Gate open; may still close situationally |
+> > > | Tire Chains Required | Until May 1 | Carry chains in vehicle |
+> > > | Avalanche Danger Rating | Not Rated (season ended) | Self-assess required |
+> > > | Snow Level | 10,500 ft | Entire Paradise snowpack above freezing level |
+> > > | Temperature at 5000 ft | 45-62 F | Warm spring conditions; wet snow likely by afternoon |
+> > > | Precipitation (tonight/Monday) | 0" | Dry window |
+> > > | Ridgeline Winds | ESE 15-25 mph to SW 5-15 mph | Moderate, easing Monday afternoon |
+> > >
+> > > ### Conclusion: GO — with awareness
+> > >
+> > > **The road to Paradise is open.** Regular nightly closures of the Longmire gate have ended for the season, and both the Nisqually Entrance-to-Longmire and Longmire-to-Paradise segments are currently OPEN. The immediate weather window (Sunday night through Monday) is **dry with no precipitation**, offering a good ski day opportunity.
+> > >
+> > > **However, spring conditions demand careful judgment:**
+> > >
+> > > 1. **Avalanche danger is unrated** — NWAC's seasonal forecasts have ended. You must self-assess on the mountain. Watch for wet avalanche activity in the afternoon as temperatures rise above freezing at all elevations (snow level at 10,500 ft means the entire Paradise snowpack is above freezing level).
+> > > 2. 2. **Spring wet snow conditions** — With 5,000 ft temps reaching 62 F on Monday and a snow level above 10,500 ft, expect soft, heavy spring snow by mid-morning. Avalanche risk increases significantly in the afternoon.
+> > >    3. 3. **Best timing: Early morning start.** Plan to ski before 11-12 PM and depart Paradise by 1 PM to avoid peak wet-snow instability.
+> > >       4. 4. **Carry tire chains** (required through May 1, all vehicles).
+> > >          5. 5. **Check the NPS Alert page the morning of your trip** — the gate may still close based on overnight conditions.
+> > >            
+> > >             6. > **Bottom line:** Road is open, weather is dry, but spring avalanche hazard requires an early-morning window and good terrain selection. If you're an experienced spring skier comfortable with wet snow self-assessment — go early and enjoy it. Leave Paradise by 1 PM.
+> > >                >
+> > >                > ---
+> > >                >
+> > >                > *Report compiled from NPS Mount Rainier alerts (nps.gov/mora) and NWAC West Slopes South forecast (nwac.us). Always check current conditions before heading out.*
